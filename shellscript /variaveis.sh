@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# VARIÁVEIS GLOBAIS (EM MAIUSCULO)
+
+NOME="Romilson Luis"
+
+echo "$NOME"
+
+# SEM ASPAS QUANDO É CÁLCULOS
+NUMERO_1=24
+NUMERO_1=45
+
+TOTAL=$(($NUMERO_1 + NUMERO2))
+
+echo $TOTAL
