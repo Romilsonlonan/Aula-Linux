@@ -1,8 +1,11 @@
 #!/bin/bash
 
-	echo -n "Digite a sua senha"
+	echo -n "Digite a sua senha :"
 	read -s resposta
-	senha="123456"
+	echo -e \******
+	echo -n "Confirme sua senha :"
+	read -s senha
+	echo -e \******
 
 		if [ $resposta = $senha ]; then
 			echo -e "\nSenha correta!"
